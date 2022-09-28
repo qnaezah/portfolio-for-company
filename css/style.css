@@ -19,6 +19,7 @@ body {
 
 .hero {
     height: 100vh;
+    width: 100%;
 }
 
 #background-video {
@@ -60,7 +61,7 @@ body {
 .content span {
     font-size: 22px;
     font-weight: 600;
-    color: #eee;
+    color: var(--main-color);
     letter-spacing: 5px;
 }
 
@@ -176,6 +177,10 @@ body {
     }
 
     .perfume h1::before, .perfume h1::after {
+        margin-top: 17px !important;
+    }
+
+    .ingredients h1::before, .ingredients h1::after {
         margin-top: 17px !important;
     }
 

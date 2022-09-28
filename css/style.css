@@ -66,6 +66,7 @@ body {
 
 .ingredients {
     min-height: 454px;
+    width: 100%;
     background-color: var(--scand-color);
     padding: 20px;
 }
@@ -119,6 +120,7 @@ body {
 
 .perfume {
     height: auto;
+    width: 100%;
     background-color: var(--main-color);
 }
 
